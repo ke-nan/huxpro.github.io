@@ -1,8 +1,16 @@
 ---
-layout: mypost
-title:  一键安装最新内核并开启 BBR 脚本
-categories: [Linux]
+layout: post
+title: "一键安装最新内核并开启 BBR 脚本"
+subtitle: "Hello World, Hello Blog"
+author: "Haike Nan"
+header-img: "img/home-bg.jpg"
+tags: 
+  - BBR
+  - linux
+  - 脚本
+  - Google
 ---
+
 最近，Google 开源了其 TCP BBR 拥塞控制算法，并提交到了 Linux 内核，从 4.9 开始，Linux 内核已经用上了该算法。根据以往的传统，Google 总是先在自家的生产环境上线运用后，才会将代码开源，此次也不例外。
 根据实地测试，在部署了最新版内核并开启了 TCP BBR 的机器上，网速甚至可以提升好几个数量级。
 
