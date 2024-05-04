@@ -1,8 +1,17 @@
 ---
-layout: mypost
-title:  思科路由器IPSec vpn配置
-categories: [Cisco,ipsec,vpn]
+layout: post
+title: "思科路由器IPSec vpn配置"
+subtitle: "Hello World, Hello Blog"
+author: "Haike Nan"
+header-img: "img/home-bg.jpg"
+tags: 
+  - Cisco
+  - 思科
+  - 路由器
+  - IPSec
+  - VPN
 ---
+
 ###### 拓扑图：
 
 ![](/assets/img/IPSecvpn.png)
