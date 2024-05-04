@@ -1,7 +1,14 @@
 ---
-layout: mypost
-title:  Kali linux无线网络渗透测试
-categories: [Linux,wlan]
+layout: post
+title: "Kali linux无线网络渗透测试"
+subtitle: "Hello World, Hello Blog"
+author: "Haike Nan"
+header-img: "img/home-bg.jpg"
+tags: 
+  - kali
+  - linux
+  - 无线
+  - 渗透
 ---
 
 所需工具：带监听模式的无线网卡、Kali linux虚拟机
