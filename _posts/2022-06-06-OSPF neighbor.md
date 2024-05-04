@@ -1,9 +1,14 @@
 ---
-layout: mypost
-title: OSPF邻居状态异常原因汇总
-categories: [Cisco,ospf]
+layout: post
+title: "Cisco路由器OSPF邻居状态异常原因汇总"
+subtitle: "Hello World, Hello Blog"
+author: "Haike Nan"
+header-img: "img/home-bg.jpg"
+tags: 
+  - Cisco
+  - 路由器
+  - OSPF
 ---
-
 实验拓扑：
 
 ![](/assets/img/Snipaste_2022-06-06_14-05-10.png)
