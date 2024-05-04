@@ -74,7 +74,7 @@ ga_domain: ccie.me
 
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
-sidebar-about-description: "世界是我们的游乐场"
+sidebar-about-description: "要不是那个清早，我说你好，你说打扰"
 sidebar-avatar: https://img.ccie.me/ciooo_com_263_4-124.jpg # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Featured Tags
