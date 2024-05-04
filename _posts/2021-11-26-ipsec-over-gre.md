@@ -1,9 +1,16 @@
 ---
-layout: mypost
-title: 思科路由器配置ipsec over gre
-categories: [Cisco,ipsec,gre,vpn]
+layout: post
+title: "思科路由器配置ipsec over gre"
+subtitle: "Hello World, Hello Blog"
+author: "Haike Nan"
+header-img: "img/home-bg.jpg"
+tags: 
+  - Cisco
+  - 思科
+  - 路由器
+  - IPSec
+  - gre
 ---
-
 
 
 ##### 拓扑：
