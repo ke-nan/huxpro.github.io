@@ -131,7 +131,14 @@ layout: default
         dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
     })();
-	setTimeout(function() {document.head.removeChild(script);}, 5000);
+	// Set a timeout to remove the script if not loaded in 5 seconds
+        setTimeout(function() {
+            // Try to remove the script tag if it hasn't loaded
+            if (head.contains(dsq)) {
+                head.removeChild(dsq);
+                console.log("Disqus load attempt cancelled after 5 seconds.");
+            }
+        }, 5000);
 </script>
 <!-- disqus 公共JS代码 end -->
 {% endif %}
