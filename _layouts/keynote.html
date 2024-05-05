@@ -108,6 +108,10 @@ layout: default
         dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
     })();
+    setTimeout(function() {
+        // 移除脚本标签，尝试停止加载脚本
+        document.head.removeChild(script);
+    }, 5000);
 </script>
 <!-- disqus 公共JS代码 end -->
 {% endif %}
