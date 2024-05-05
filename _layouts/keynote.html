@@ -106,9 +106,9 @@ layout: default
     (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
         dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-	setTimeout(function() {document.head.removeChild(script);}, 5000);
         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
     })();
+	setTimeout(function() {document.head.removeChild(script);}, 5000);
 </script>
 <!-- disqus 公共JS代码 end -->
 {% endif %}
